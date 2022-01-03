@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './todo.css';
 
-export default class ToDo extends Component {
+export default class Todo extends Component {
 
     state = {
         todos: []
@@ -26,7 +26,7 @@ export default class ToDo extends Component {
       return(
         <div>
         <h2>タスクの一覧</h2>
-        <a href="/create-page">タスクを追加</a>
+        
         <table border="1">
             <tr>
                 <th>タスクの内容</th>
